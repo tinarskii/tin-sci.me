@@ -1,16 +1,28 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@500&display=swap');
+
+::-webkit-scrollbar {
+  width: 0;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.font-so-bold {
+  font-family: 'Oswald', sans-serif;
 }
 
-* {
-  box-sizing: border-box;
+.font-sarabun {
+  font-family: 'Sarabun', sans-serif;
+}
+
+svg {
+  vertical-align: middle;
+  display: inline-block;
+}
+
+
+span::selection {
+  color: rgb(255, 252, 59);
+}
+
+::selection {
+  color: rgb(0, 255, 42);
 }
