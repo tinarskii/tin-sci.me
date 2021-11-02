@@ -16,16 +16,16 @@ export default function Contact() {
         Contact
         </div>
         <div className={"text-md font-sarabun m-2 text-center"}>
-        <GithubLoginButton size={40} onClick={() => location.href = "https://www.github.com/Tin-Tinnaphat"}>
+        <GithubLoginButton size={40} onClick={() => location.href = "https://github.com/tinvv/"}>
           <span>Github</span>
         </GithubLoginButton>
         <FacebookLoginButton size={40} onClick={() => location.href = "https://www.facebook.com/TiNNAPHATs/"}>
           <span>Facebook</span>
         </FacebookLoginButton>
-        <DiscordLoginButton size={40} onClick={() => location.href = "https://www.discord.com/users/508473794994896896"}>
+        <DiscordLoginButton size={40} onClick={() => location.href = "https://www.discord.com/users/508473794994896896/"}>
           <span>Discord</span>
         </DiscordLoginButton>
-        <TwitterLoginButton size={40} onClick={() => location.href = "https://www.twitter.com/@tinnaphattin"}>
+        <TwitterLoginButton size={40} onClick={() => location.href = "https://www.twitter.com/@tinnaphattin/"}>
           <span>Twitter</span>
         </TwitterLoginButton>
         </div>     
