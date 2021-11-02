@@ -4,7 +4,7 @@ export default function Navigator() {
     <button onClick={() => location.href = "/me"} className={"px-4 py-2 md:m-2 flex-grow-0 w-full bg-blue-500 text-white font-bold hover:bg-blue-700 transform transition duration-200 active:scale-90 rounded-md"}>
       About Me
     </button>
-    <button onClick={() => location.href = "https://github.com/Tin-Tinnaphat?tab=repositories"} className={"px-4 py-2 md:m-2 flex-grow-0 w-full bg-blue-400 text-white font-bold hover:bg-blue-600 transform transition duration-200 active:scale-90 rounded-md"}>
+    <button onClick={() => location.href = "https://github.com/tinvv?tab=repositories"} className={"px-4 py-2 md:m-2 flex-grow-0 w-full bg-blue-400 text-white font-bold hover:bg-blue-600 transform transition duration-200 active:scale-90 rounded-md"}>
       All Projects
     </button>
     <button onClick={() => location.href = "https://tinnaphat.medium.com"} className={"px-4 py-2 md:m-2 flex-grow-0 w-full bg-blue-300 text-white font-bold hover:bg-blue-500 transform transition duration-200 active:scale-90 rounded-md"}>
