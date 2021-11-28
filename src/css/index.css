@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai&family=Outfit&family=Sarabun&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+  
+    ::-webkit-scrollbar {
+        width: 0;
+    }
+
+  .nav-btn {
+    @apply text-base p-2 rounded-lg;
+    @apply  transform transition duration-150;
+    @apply hover:bg-white hover:bg-opacity-20;
+    @apply active:scale-95;
+    font-family: 'Outfit', sans-serif;
+  }
+
+  .nav-btn:hover {
+    @apply bg-white bg-opacity-20;
+    @apply text-white;
+  }
+
+  .nav-btn:active {
+    @apply bg-white bg-opacity-20 transform scale-95;
+    @apply text-white;
+  }
+
+  .home-btn {
+    @apply transition duration-150;
+    @apply text-black px-4 py-2 w-full rounded-lg;
+    @apply bg-none border-2 md:text-left text-center  border-black;
+    @apply hover:bg-black hover:text-white;
+  }
+
+  ::selection {
+    color: currentColor;
+    background: none;
+  }
+  #three {
+      height: 50vh;
+      width: 100%;
+  }
+  main {
+      font-family: 'Outfit', 'Noto Sans Thai', 'Sarabun', sans-serif;
+  }
